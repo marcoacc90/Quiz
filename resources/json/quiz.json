@@ -1,0 +1,141 @@
+{
+  "quiz": {
+    "title": "Herramientas CAD para el diseño de sistemas digitales",
+    "random_mode": 0,
+    "questions_to_show": 5,
+
+    "questions":{
+      "question": [
+        {
+          "type": "RadioButton",
+          "instruction": "Selecciona la respuesta correcta.",
+          "text": "Es el significado del acrónimo CAD: ",
+          "options":
+          {
+            "option":
+            [
+              {"text":"Correcta 1", "html":"Diseño asistido por computadora","feedback":"Correcto."},
+              {"text":"Nunc 2", "html":"Diseño automático de sistemas digitales", "feedback":"CAD por sus siglas en inglés de Computer-Aided Design."},
+              {"text":"Sed 3", "html":"Sistema de análisis de datos", "feedback":"CAD por sus siglas en inglés de Computer-Aided Design."}
+            ]
+          },
+          "correct_answer":"Correcta 1"
+        },
+        {
+          "type": "CheckBox",
+          "instruction": "Selecciona las respuestas correctas.",
+          "text": "Seleccione las herramientas CAD para soporte en el diseño de sistemas digitales (selecciona todas las que apliquen)",
+          "options":
+          {
+            "option":
+            [
+              {"text":"kicad", "html":"Kicad", "truth":1, "feedback":"Muy bien."},
+              {"text":"AutoCAD", "html":"AutoCAD", "truth":0, "feedback":"Este software es utilizado para modelado 2D y 3D."},
+              {"text":"FreeCAD", "html":"FreeCAD", "truth":0, "feedback":"Este software es utilizado para asistencia en ingeniería mecánica y el diseño de elementos mecánicos."},
+              {"text":"TinyCAD", "html":"TinyCAD", "truth":1, "feedback":"Excelente."}
+            ]
+          }
+        },
+        {
+          "type":"DropDownList",
+          "instruction":"Selecciona la palabra correcta.",
+          "text":"La palabra clave _ en VHDL nos permite realizar la declaración de las terminales externas",
+          "options":
+          {
+            "option":
+            [
+              {"text":"entity", "feedback":"Muy bien."},
+              {"text":"architecture", "feedback":"Esta palabra nos permite describir la arquitectura del circuito."},
+              {"text":"process","feedback":"Se utiliza para realizar operaciones paso a paso."}
+            ]
+          },
+          "correct_answer":"entity"
+        },
+        {
+          "type": "ImageRadioButton",
+          "instruction": "Selecciona la imagen correcta.",
+          "text": "¿Cuál de los siguientes fragmentos de código define la arquitectura de un flip-flop tipo D con disparo positivo, previamente definido con el nombre flip_flop_d?",
+          "options":
+          {
+            "option":
+            [
+              {"src":"resources/imgs/quiz/flip1.png", "feedback":"Excelente."},
+              {"src":"resources/imgs/quiz/flip2.png", "feedback":"El disparo corresponde a un disparo negativo."},
+              {"src":"resources/imgs/quiz/flip3.png", "feedback":"El nombre del circuito no corresponde."},
+              {"src":"resources/imgs/quiz/flip4.png", "feedback":"El nombre del circuito y el disparo no corresponden."}
+            ]
+          },
+          "correct_answer":"resources/imgs/quiz/flip1.png"
+        },
+        {
+          "type": "ImageRadioButton",
+          "instruction": "Selecciona las imágenes correctas.",
+          "text": "El siguiente grafo representa una FSM que controla el llenado de un déposito de líquido usando una bomba. Cuando el tanque está vacío (identificado por la activación de B) la bomba se enciende  y cuando el líquito llega hasta un nivel determinado (identificado por la señal T) la bomba se apaga. La salida se representa con la señal M.",
+          "options":
+          {
+            "option":
+            [
+              {"src":"resources/imgs/quiz/1.png", "truth":1, "feedback":"Muy bien"},
+              {"src":"resources/imgs/quiz/2.png", "truth":0, "feedback":"Presta atención en las transiciones entre estados."},
+              {"src":"resources/imgs/quiz/3.png", "truth":0, "feedback":"Observa qué sucede con los otros valores de las entredas."},
+              {"src":"resources/imgs/quiz/4.png", "truth":0, "feedback":"Observa el orden de los estados."}
+            ]
+          }
+        },
+
+
+
+        {
+          "type": "VideoRadioButton",
+          "instruction": "Vea el video y seleccione la respuesta a la pregunta.",
+          "text": "¿Quis leo luctus sed a tortor porttitor 7?",
+          "url": "https://www.youtube.com/embed/kPDnw3_1GOI",
+          "options":
+          {
+            "option":
+            [
+              {"text":"Correcta 1", "html":"<b>Correcta</b> 1","feedback":"Retroalimentación para la opción 1"},
+              {"text":"Lorem 2", "html":"Lorem <sup>2</sup>", "feedback":"Retroalimentación para la opción 2"},
+              {"text":"Sed 3", "html":"<span style=\"color:red;\">Sed</span> <span style=\"color:blue;\">3</span>", "feedback":"Retroalimentación para la opción 3"},
+              {"text":"Risus 4", "html":"Risus <sub>4</sub>", "feedback":"Retroalimentación para la opción 4"}
+            ]
+          },
+          "correct_answer":"Correcta 1"
+        },
+        {
+          "type":"VideoDropDownList",
+          "instruction":"Vea el video y seleccione la respuesta a la pregunta.",
+          "text":"Purus vel ultricies _ rutrum, arcu libero congue lacus. 8",
+          "url": "https://www.youtube.com/embed/kPDnw3_1GOI",
+          "options":
+          {
+            "option":
+            [
+              {"text":"Correcta 1", "feedback":"Retroalimentación para la opción 1"},
+              {"text":"Lorem 2", "feedback":"Retroalimentación para la opción 2"},
+              {"text":"Commodo 3", "feedback":"Retroalimentación para la opción 3"},
+              {"text":"Interdum 4", "feedback":"Retroalimentación para la opción 4"}
+            ]
+          },
+          "correct_answer":"Correcta 1"
+        },
+        {
+          "type": "VideoCheckBox",
+          "instruction": "Vea el video y seleccione la respuesta a la pregunta.",
+          "text": "¿Ut scelerisque, elit at ornare dapibus, erat risus suscipit erat 9?",
+          "url": "https://www.youtube.com/embed/kPDnw3_1GOI",
+          "options":
+          {
+            "option":
+            [
+              {"text":"Correcta 1", "html":"<b>Correcta</b> 1", "truth":1, "feedback":"Retroalimentación para la opción 1"},
+              {"text":"Phasellus 2", "html":"Phasellus <sup>2</sup>", "truth":0, "feedback":"Retroalimentación para la opción 2"},
+              {"text":"Scelerisque 3", "html":"Scelerisque 3", "truth":0, "feedback":"Retroalimentación para la opción 3"},
+              {"text":"Correcta 4", "html":"<span style=\"color:red;\">Correcta</span> <span style=\"color:green;\">4</span>", "truth":1, "feedback":"Retroalimentación para la opción 4"}
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
